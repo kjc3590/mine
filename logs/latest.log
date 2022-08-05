@@ -1,0 +1,288 @@
+[00:02:55] [Server thread/INFO]: Chan0601 issued server command: /weather clear
+[00:02:55] [Server thread/INFO]: [Chan0601: Set the weather to clear]
+[00:07:26] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-61 (MC: 1.19) ---
+[00:07:26] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[00:07:26] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:07:26] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[00:07:26] [Paper Watchdog Thread/ERROR]: Ticking entity: minecraft:player, entity class: net.minecraft.server.level.EntityPlayer
+[00:07:26] [Paper Watchdog Thread/ERROR]: Entity status: removed: false, valid: true, alive: true, is passenger: false
+[00:07:26] [Paper Watchdog Thread/ERROR]: Entity UUID: 97d36a18-6eb0-462a-ba8e-9c9c820dc6cc
+[00:07:26] [Paper Watchdog Thread/ERROR]: Position: world: 'world' at location (1291.2590530985021, 40.0, 1413.5702808455433)
+[00:07:26] [Paper Watchdog Thread/ERROR]: Velocity: (0.0, -0.005, 0.0) (in blocks per tick)
+[00:07:26] [Paper Watchdog Thread/ERROR]: Entity AABB: AABB[1290.9590530865812, 40.0, 1413.2702808336223] -> [1291.559053110423, 41.799999952316284, 1413.8702808574642]
+[00:07:26] [Paper Watchdog Thread/ERROR]: Total packets processed on the main thread for all players: 433574
+[00:07:26] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:07:26] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[00:07:26] [Paper Watchdog Thread/ERROR]: 	PID: 26 | Suspended: false | Native: false | State: RUNNABLE
+[00:07:26] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:07:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$PureTransformer.compute(DensityFunctions.java:841)
+[00:07:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.compute(DensityFunctions.java:251)
+[00:07:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$RangeChoice.compute(DensityFunctions.java:866)
+[00:07:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.fillArray(DensityFunctions.java:294)
+[00:07:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.fillArray(DensityFunctions.java:271)
+[00:07:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseChunk.selectCellYZ(NoiseChunk.java:269)
+[00:07:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.iterateNoiseColumn(NoiseBasedChunkGenerator.java:180)
+[00:07:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.getBaseHeight(NoiseBasedChunkGenerator.java:124)
+[00:07:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getFirstOccupiedHeight(ChunkGenerator.java:906)
+[00:07:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.Structure.onTopOfChunkCenter(Structure.java:99)
+[00:07:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.structures.BuriedTreasureStructure.findGenerationPoint(BuriedTreasureStructure.java:20)
+[00:07:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.canCreateStructure(StructureCheck.java:92)
+[00:07:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.lambda$checkStart$1(StructureCheck.java:84)
+[00:07:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck$$Lambda$7119/0x0000000801d81878.get(Unknown Source)
+[00:07:26] [Paper Watchdog Thread/ERROR]: 		it.unimi.dsi.fastutil.longs.Long2BooleanOpenHashMap.computeIfAbsent(Long2BooleanOpenHashMap.java:496)
+[00:07:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.checkStart(StructureCheck.java:83)
+[00:07:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.StructureManager.checkStructurePresence(StructureManager.java:166)
+[00:07:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getStructureGeneratingAt(ChunkGenerator.java:481)
+[00:07:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getNearestGeneratedStructure(ChunkGenerator.java:451)
+[00:07:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.findNearestMapStructure(ChunkGenerator.java:380)
+[00:07:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.findNearestMapStructure(ServerLevel.java:1898)
+[00:07:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction.run(ExplorationMapFunction.java:80)
+[00:07:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemConditionalFunction.apply(LootItemConditionalFunction.java:30)
+[00:07:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction.apply(ExplorationMapFunction.java:30)
+[00:07:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunctions.lambda$compose$1(LootItemFunctions.java:58)
+[00:07:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunctions$$Lambda$4252/0x0000000801499c90.apply(Unknown Source)
+[00:07:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunction.decorate(LootItemFunction.java:13)
+[00:07:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunction$$Lambda$5841/0x0000000801b6f9b8.accept(Unknown Source)
+[00:07:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.entries.LootItem.createItemStack(LootItem.java:32)
+[00:07:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$1.createItemStack(LootPoolSingletonContainer.java:31)
+[00:07:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootPool.addRandomItem(LootPool.java:78)
+[00:07:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootPool.addRandomItems(LootPool.java:93)
+[00:07:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItemsRaw(LootTable.java:95)
+[00:07:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItems(LootTable.java:106)
+[00:07:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItems(LootTable.java:113)
+[00:07:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.fillInventory(LootTable.java:141)
+[00:07:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.fill(LootTable.java:136)
+[00:07:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity.unpackLootTable(RandomizableContainerBlockEntity.java:85)
+[00:07:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity.createMenu(RandomizableContainerBlockEntity.java:169)
+[00:07:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerPlayer.openMenu(ServerPlayer.java:1506)
+[00:07:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.ChestBlock.use(ChestBlock.java:269)
+[00:07:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.use(BlockBehaviour.java:1032)
+[00:07:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerPlayerGameMode.useItemOn(ServerPlayerGameMode.java:571)
+[00:07:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItemOn(ServerGamePacketListenerImpl.java:1872)
+[00:07:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:37)
+[00:07:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.a(ServerboundUseItemOnPacket.java:9)
+[00:07:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$1(PacketUtils.java:51)
+[00:07:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.PlayerConnectionUtils$$Lambda$6350/0x0000000801c9ef50.run(Unknown Source)
+[00:07:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
+[00:07:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153)
+[00:07:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[00:07:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1358)
+[00:07:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.d(MinecraftServer.java:183)
+[00:07:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126)
+[00:07:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1335)
+[00:07:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1328)
+[00:07:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136)
+[00:07:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1306)
+[00:07:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1191)
+[00:07:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:302)
+[00:07:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4352/0x00000008014dd0f8.run(Unknown Source)
+[00:07:26] [Paper Watchdog Thread/ERROR]: 		java.base@18.0.1.1/java.lang.Thread.run(Thread.java:833)
+[00:07:26] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:07:26] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[00:07:26] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:07:31] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-61 (MC: 1.19) ---
+[00:07:31] [Paper Watchdog Thread/ERROR]: The server has not responded for 15 seconds! Creating thread dump
+[00:07:31] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:07:31] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[00:07:31] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread] Chunk wait task info below: 
+[00:07:31] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread] 130,138 in 'world:
+[00:07:31] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread] Load Task - none
+[00:07:31] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread] Save Task - none
+[00:07:31] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread] Chunk Holder - non-null
+[00:07:31] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread] Chunk Status - minecraft:empty
+[00:07:31] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread] Chunk Ticket Status - minecraft:structure_starts
+[00:07:31] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread] Chunk Holder Status - null
+[00:07:31] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread] Chunk Holder Priority - 2
+[00:07:31] [Paper Watchdog Thread/ERROR]: Ticking entity: minecraft:player, entity class: net.minecraft.server.level.EntityPlayer
+[00:07:31] [Paper Watchdog Thread/ERROR]: Entity status: removed: false, valid: true, alive: true, is passenger: false
+[00:07:31] [Paper Watchdog Thread/ERROR]: Entity UUID: 97d36a18-6eb0-462a-ba8e-9c9c820dc6cc
+[00:07:31] [Paper Watchdog Thread/ERROR]: Position: world: 'world' at location (1291.2590530985021, 40.0, 1413.5702808455433)
+[00:07:31] [Paper Watchdog Thread/ERROR]: Velocity: (0.0, -0.005, 0.0) (in blocks per tick)
+[00:07:31] [Paper Watchdog Thread/ERROR]: Entity AABB: AABB[1290.9590530865812, 40.0, 1413.2702808336223] -> [1291.559053110423, 41.799999952316284, 1413.8702808574642]
+[00:07:31] [Paper Watchdog Thread/ERROR]: Total packets processed on the main thread for all players: 433574
+[00:07:31] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:07:31] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[00:07:31] [Paper Watchdog Thread/ERROR]: 	PID: 26 | Suspended: false | Native: false | State: TIMED_WAITING
+[00:07:31] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:07:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14966ms or 299 ticks behind
+[00:07:31] [Paper Watchdog Thread/ERROR]: 		java.base@18.0.1.1/jdk.internal.misc.Unsafe.park(Native Method)
+[00:07:31] [Paper Watchdog Thread/ERROR]: 		java.base@18.0.1.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+[00:07:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.waitForTasks(BlockableEventLoop.java:148)
+[00:07:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:137)
+[00:07:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerChunkCache.getChunk(ServerChunkCache.java:661)
+[00:07:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.getChunk(Level.java:504)
+[00:07:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.LevelReader.getChunk(LevelReader.java:134)
+[00:07:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getStructureGeneratingAt(ChunkGenerator.java:488)
+[00:07:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getNearestGeneratedStructure(ChunkGenerator.java:451)
+[00:07:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.findNearestMapStructure(ChunkGenerator.java:380)
+[00:07:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.findNearestMapStructure(ServerLevel.java:1898)
+[00:07:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction.run(ExplorationMapFunction.java:80)
+[00:07:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemConditionalFunction.apply(LootItemConditionalFunction.java:30)
+[00:07:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction.apply(ExplorationMapFunction.java:30)
+[00:07:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunctions.lambda$compose$1(LootItemFunctions.java:58)
+[00:07:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunctions$$Lambda$4252/0x0000000801499c90.apply(Unknown Source)
+[00:07:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunction.decorate(LootItemFunction.java:13)
+[00:07:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunction$$Lambda$5841/0x0000000801b6f9b8.accept(Unknown Source)
+[00:07:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.entries.LootItem.createItemStack(LootItem.java:32)
+[00:07:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$1.createItemStack(LootPoolSingletonContainer.java:31)
+[00:07:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootPool.addRandomItem(LootPool.java:78)
+[00:07:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootPool.addRandomItems(LootPool.java:93)
+[00:07:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItemsRaw(LootTable.java:95)
+[00:07:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItems(LootTable.java:106)
+[00:07:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItems(LootTable.java:113)
+[00:07:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.fillInventory(LootTable.java:141)
+[00:07:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.fill(LootTable.java:136)
+[00:07:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity.unpackLootTable(RandomizableContainerBlockEntity.java:85)
+[00:07:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity.createMenu(RandomizableContainerBlockEntity.java:169)
+[00:07:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerPlayer.openMenu(ServerPlayer.java:1506)
+[00:07:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.ChestBlock.use(ChestBlock.java:269)
+[00:07:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.use(BlockBehaviour.java:1032)
+[00:07:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerPlayerGameMode.useItemOn(ServerPlayerGameMode.java:571)
+[00:07:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItemOn(ServerGamePacketListenerImpl.java:1872)
+[00:07:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:37)
+[00:07:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.a(ServerboundUseItemOnPacket.java:9)
+[00:07:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$1(PacketUtils.java:51)
+[00:07:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.PlayerConnectionUtils$$Lambda$6350/0x0000000801c9ef50.run(Unknown Source)
+[00:07:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
+[00:07:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153)
+[00:07:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[00:07:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1358)
+[00:07:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.d(MinecraftServer.java:183)
+[00:07:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126)
+[00:07:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1335)
+[00:07:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1328)
+[00:07:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136)
+[00:07:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1306)
+[00:07:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1191)
+[00:07:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:302)
+[00:07:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4352/0x00000008014dd0f8.run(Unknown Source)
+[00:07:31] [Paper Watchdog Thread/ERROR]: 		java.base@18.0.1.1/java.lang.Thread.run(Thread.java:833)
+[00:07:31] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:07:31] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[00:07:31] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:07:31] [Server thread/WARN]: Chan0601 moved too quickly! -2.2774001710740777,10.383452593164009,-0.016417559364754197
+[00:07:31] [Server thread/WARN]: Chan0601 moved too quickly! -2.2774001710740777,10.208452641592977,-0.016417559364754197
+[00:08:46] [Server thread/INFO]: Chan0601 issued server command: /time set day
+[00:08:46] [Server thread/INFO]: [Chan0601: Set the time to 1000]
+[00:08:54] [Server thread/INFO]: Chan0601 issued server command: /weather clear
+[00:08:54] [Server thread/INFO]: [Chan0601: Set the weather to clear]
+[00:14:38] [Server thread/INFO]: Chan0601 issued server command: /weather clear
+[00:14:38] [Server thread/INFO]: [Chan0601: Set the weather to clear]
+[00:19:19] [Server thread/INFO]: Chan0601 issued server command: /time set day
+[00:19:19] [Server thread/INFO]: [Chan0601: Set the time to 1000]
+[00:20:29] [Server thread/INFO]: Chan0601 issued server command: /weather clear
+[00:20:29] [Server thread/INFO]: [Chan0601: Set the weather to clear]
+[00:23:19] [Server thread/INFO]: JJoRong2 issued server command: /tp 2390 62 -390
+[00:23:19] [Server thread/INFO]: [JJoRong2: Teleported JJoRong2 to 2390.500000, 62.000000, -389.500000]
+[00:25:48] [Server thread/INFO]: Chan0601 issued server command: /weather clear
+[00:25:48] [Server thread/INFO]: [Chan0601: Set the weather to clear]
+[00:44:55] [Server thread/INFO]: Chan0601 issued server command: /time set day
+[00:44:55] [Server thread/INFO]: [Chan0601: Set the time to 1000]
+[00:50:15] [Server thread/INFO]: JJoRong2 issued server command: /tp Chan0601 JJoRong2
+[00:50:15] [Server thread/INFO]: [JJoRong2: Teleported Chan0601 to JJoRong2]
+[00:50:15] [Server thread/WARN]: Chan0601 moved too quickly! -297.7233110553748,-0.926735675334939,-164.5576930186952
+[00:50:15] [Server thread/WARN]: Chan0601 moved too quickly! -297.7233110553748,-0.926735675334939,-164.5576930186952
+[00:55:03] [Server thread/INFO]: Chan0601 issued server command: /time set 500
+[00:55:03] [Server thread/INFO]: [Chan0601: Set the time to 500]
+[01:05:09] [Server thread/INFO]: Chan0601 issued server command: /time set 500
+[01:05:09] [Server thread/INFO]: [Chan0601: Set the time to 500]
+[01:14:55] [Server thread/INFO]: Chan0601 issued server command: /time set 500
+[01:14:55] [Server thread/INFO]: [Chan0601: Set the time to 500]
+[01:16:19] [Server thread/INFO]: JJoRong2 issued server command: /give JJoRong2 minecraft:fire_coral 5
+[01:16:19] [Server thread/INFO]: [JJoRong2: Gave 5 [Fire Coral] to JJoRong2]
+[01:17:44] [Server thread/WARN]: Chan0601 moved wrongly!
+[01:17:44] [Server thread/WARN]: Chan0601 moved wrongly!
+[01:17:44] [Server thread/WARN]: Chan0601 moved wrongly!
+[01:17:44] [Server thread/WARN]: Chan0601 moved wrongly!
+[01:17:45] [Server thread/WARN]: Chan0601 moved wrongly!
+[01:17:45] [Server thread/WARN]: Chan0601 moved wrongly!
+[01:17:45] [Server thread/WARN]: Chan0601 moved wrongly!
+[01:17:46] [Server thread/WARN]: Chan0601 moved wrongly!
+[01:17:46] [Server thread/WARN]: Chan0601 moved wrongly!
+[01:17:46] [Server thread/WARN]: Chan0601 moved wrongly!
+[01:17:46] [Server thread/WARN]: Chan0601 moved wrongly!
+[01:17:46] [Server thread/WARN]: Chan0601 moved wrongly!
+[01:17:47] [Server thread/INFO]: Chan0601 lost connection: Disconnected
+[01:17:47] [Server thread/INFO]: Chan0601 left the game
+[01:17:49] [User Authenticator #5/INFO]: UUID of player Chan0601 is 97d36a18-6eb0-462a-ba8e-9c9c820dc6cc
+[01:17:49] [Server thread/INFO]: Chan0601 joined the game
+[01:17:49] [Server thread/INFO]: Chan0601[/124.50.43.237:63758] logged in with entity id 180590 at ([world]3.300000011920929, 71.0, -108.28973631699743)
+[01:19:59] [Server thread/INFO]: JJoRong2 issued server command: /give JJoRong2 minecraft:dead_fire_coral 5
+[01:19:59] [Server thread/INFO]: [JJoRong2: Gave 5 [Dead Fire Coral] to JJoRong2]
+[01:21:43] [Server thread/INFO]: JJoRong2 issued server command: /give JJoRong2 minecraft:dead_horn_coral 5
+[01:21:43] [Server thread/INFO]: [JJoRong2: Gave 5 [Dead Horn Coral] to JJoRong2]
+[01:24:25] [Server thread/INFO]: JJoRong2 issued server command: /give JJoRong2 minecraft:dead_horn_coral_fan 5
+[01:24:25] [Server thread/INFO]: [JJoRong2: Gave 5 [Dead Horn Coral Fan] to JJoRong2]
+[01:24:48] [Server thread/INFO]: Chan0601 issued server command: /time set 500
+[01:24:48] [Server thread/INFO]: [Chan0601: Set the time to 500]
+[01:29:34] [Server thread/INFO]: JJoRong2 issued server command: /tp Chan0601 JJoRong2
+[01:29:34] [Server thread/INFO]: [JJoRong2: Teleported Chan0601 to JJoRong2]
+[01:29:34] [Server thread/WARN]: Chan0601 moved too quickly! 88.0942634893136,7.0,-46.36042067699171
+[01:34:46] [Server thread/INFO]: Chan0601 issued server command: /time set 600
+[01:34:46] [Server thread/INFO]: [Chan0601: Set the time to 600]
+[01:37:35] [Server thread/WARN]: Chan0601 moved wrongly!
+[01:37:35] [Server thread/WARN]: Chan0601 moved wrongly!
+[01:37:35] [Server thread/WARN]: Chan0601 moved wrongly!
+[01:37:35] [Server thread/WARN]: Chan0601 moved wrongly!
+[01:37:35] [Server thread/WARN]: Chan0601 moved wrongly!
+[01:37:36] [Server thread/INFO]: Chan0601 lost connection: Disconnected
+[01:37:36] [Server thread/INFO]: Chan0601 left the game
+[01:37:38] [User Authenticator #6/INFO]: UUID of player Chan0601 is 97d36a18-6eb0-462a-ba8e-9c9c820dc6cc
+[01:37:38] [Server thread/INFO]: Chan0601 joined the game
+[01:37:38] [Server thread/INFO]: Chan0601[/124.50.43.237:63963] logged in with entity id 193833 at ([world]3.8100000119209287, 71.0, -108.527131191923)
+[01:37:41] [Server thread/WARN]: Chan0601 moved wrongly!
+[01:37:41] [Server thread/WARN]: Chan0601 moved wrongly!
+[01:37:41] [Server thread/WARN]: Chan0601 moved wrongly!
+[01:37:42] [Server thread/WARN]: Chan0601 moved wrongly!
+[01:37:42] [Server thread/WARN]: Chan0601 moved wrongly!
+[01:37:42] [Server thread/WARN]: Chan0601 moved wrongly!
+[01:37:42] [Server thread/WARN]: Chan0601 moved wrongly!
+[01:38:16] [Server thread/WARN]: Chan0601 moved wrongly!
+[01:38:16] [Server thread/WARN]: Chan0601 moved wrongly!
+[01:38:17] [Server thread/WARN]: Chan0601 moved wrongly!
+[01:38:17] [Server thread/WARN]: Chan0601 moved wrongly!
+[01:38:17] [Server thread/WARN]: Chan0601 moved wrongly!
+[01:38:18] [Server thread/WARN]: Chan0601 moved wrongly!
+[01:38:18] [Server thread/WARN]: Chan0601 moved wrongly!
+[01:38:18] [Server thread/WARN]: Chan0601 moved wrongly!
+[01:38:18] [Server thread/WARN]: Chan0601 moved wrongly!
+[01:38:18] [Server thread/WARN]: Chan0601 moved wrongly!
+[01:38:19] [Server thread/WARN]: Chan0601 moved wrongly!
+[01:38:19] [Server thread/WARN]: Chan0601 moved wrongly!
+[01:38:20] [Server thread/WARN]: Chan0601 moved wrongly!
+[01:38:20] [Server thread/WARN]: Chan0601 moved wrongly!
+[01:40:33] [Server thread/WARN]: Chan0601 moved wrongly!
+[01:40:33] [Server thread/WARN]: Chan0601 moved wrongly!
+[01:40:34] [Server thread/WARN]: Chan0601 moved wrongly!
+[01:40:34] [Server thread/WARN]: Chan0601 moved wrongly!
+[01:40:34] [Server thread/WARN]: Chan0601 moved wrongly!
+[01:40:34] [Server thread/WARN]: Chan0601 moved wrongly!
+[01:40:35] [Server thread/WARN]: Chan0601 moved wrongly!
+[01:40:47] [Server thread/WARN]: Chan0601 moved wrongly!
+[01:40:48] [Server thread/WARN]: Chan0601 moved wrongly!
+[01:45:01] [Server thread/INFO]: Chan0601 issued server command: /time set 500
+[01:45:01] [Server thread/INFO]: [Chan0601: Set the time to 500]
+[01:54:20] [Server thread/INFO]: JJoRong2 issued server command: /give JJoRong2 minecraft:dead_horn_coral_fan 30
+[01:54:20] [Server thread/INFO]: [JJoRong2: Gave 30 [Dead Horn Coral Fan] to JJoRong2]
+[01:55:05] [Server thread/INFO]: JJoRong2 issued server command: /tp Chan0601 JJoRong2
+[01:55:05] [Server thread/INFO]: [JJoRong2: Teleported Chan0601 to JJoRong2]
+[01:55:36] [Server thread/INFO]: Chan0601 issued server command: /time set 500
+[01:55:36] [Server thread/INFO]: [Chan0601: Set the time to 500]
+[02:11:35] [Server thread/INFO]: JJoRong2 lost connection: Disconnected
+[02:11:35] [Server thread/INFO]: JJoRong2 left the game
+[02:11:42] [Server thread/INFO]: Chan0601 lost connection: Disconnected
+[02:11:42] [Server thread/INFO]: Chan0601 left the game
+[02:12:03] [Server thread/INFO]: Stopping the server
+[02:12:03] [Server thread/INFO]: Stopping server
+[02:12:03] [Server thread/INFO]: Saving players
+[02:12:03] [Server thread/INFO]: Saving worlds
+[02:12:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[02:12:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[02:12:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[02:12:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:12:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:12:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02:12:05] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[02:12:05] [Server thread/INFO]: Flushing Chunk IO
+[02:12:05] [Server thread/INFO]: Closing Thread Pool
+[02:12:05] [Server thread/INFO]: Closing Server
