@@ -113,6 +113,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/leather_helmet": {
+    "criteria": {
+      "has_leather": "2022-08-06 19:51:12 +0900"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
       "has_planks": "2022-07-17 22:16:43 +0900"
@@ -257,6 +263,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/sandstone_stairs": {
+    "criteria": {
+      "has_sandstone": "2022-08-06 20:22:22 +0900"
+    },
+    "done": true
+  },
   "minecraft:recipes/brewing/golden_carrot": {
     "criteria": {
       "has_gold_nugget": "2022-08-03 00:04:54 +0900"
@@ -347,6 +359,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/leather_leggings": {
+    "criteria": {
+      "has_leather": "2022-08-06 19:51:12 +0900"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/spyglass": {
     "criteria": {
       "has_amethyst_shard": "2022-07-18 21:41:08 +0900"
@@ -356,6 +374,12 @@
   "minecraft:recipes/building_blocks/pink_concrete_powder": {
     "criteria": {
       "has_gravel": "2022-07-18 20:40:58 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_slab": {
+    "criteria": {
+      "has_sandstone": "2022-08-06 20:22:22 +0900"
     },
     "done": true
   },
@@ -591,11 +615,13 @@
     "criteria": {
       "minecraft:pillager": "2022-08-04 22:14:15 +0900",
       "minecraft:skeleton": "2022-07-17 22:57:51 +0900",
+      "minecraft:hoglin": "2022-08-06 19:51:07 +0900",
       "minecraft:spider": "2022-07-17 22:41:04 +0900",
       "minecraft:creeper": "2022-08-02 22:58:37 +0900",
       "minecraft:slime": "2022-07-18 21:19:07 +0900",
       "minecraft:zombified_piglin": "2022-08-03 00:04:22 +0900",
       "minecraft:witch": "2022-07-18 22:35:39 +0900",
+      "minecraft:piglin": "2022-08-06 19:51:19 +0900",
       "minecraft:enderman": "2022-07-26 21:43:56 +0900",
       "minecraft:zombie": "2022-07-17 22:26:44 +0900",
       "minecraft:drowned": "2022-08-05 00:10:51 +0900",
@@ -1023,6 +1049,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/sandstone_stairs_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2022-08-06 20:22:22 +0900"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/birch_fence_gate": {
     "criteria": {
       "has_planks": "2022-07-18 20:29:27 +0900"
@@ -1165,6 +1197,7 @@
     "criteria": {
       "minecraft:deep_ocean": "2022-07-26 21:32:59 +0900",
       "minecraft:eroded_badlands": "2022-08-05 00:48:43 +0900",
+      "minecraft:birch_forest": "2022-08-06 20:50:55 +0900",
       "minecraft:bamboo_jungle": "2022-07-18 22:53:06 +0900",
       "minecraft:badlands": "2022-08-05 00:32:00 +0900",
       "minecraft:beach": "2022-07-18 20:58:47 +0900",
@@ -1272,6 +1305,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/leather_boots": {
+    "criteria": {
+      "has_leather": "2022-08-06 19:51:12 +0900"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2022-07-17 22:18:39 +0900"
@@ -1357,6 +1396,12 @@
       "minecraft:soul_sand_valley": "2022-07-29 22:00:06 +0900"
     },
     "done": false
+  },
+  "minecraft:recipes/decorations/sandstone_wall": {
+    "criteria": {
+      "has_sandstone": "2022-08-06 20:22:22 +0900"
+    },
+    "done": true
   },
   "minecraft:recipes/food/cookie": {
     "criteria": {
@@ -1505,6 +1550,12 @@
   "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_bricks_stonecutting": {
     "criteria": {
       "has_stone_bricks": "2022-07-26 22:11:42 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2022-08-06 20:22:22 +0900"
     },
     "done": true
   },
@@ -1774,6 +1825,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/chiseled_sandstone_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2022-08-06 20:22:22 +0900"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/yellow_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2022-07-18 20:43:59 +0900"
@@ -1828,6 +1885,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/leather_horse_armor": {
+    "criteria": {
+      "has_leather": "2022-08-06 19:51:12 +0900"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/glass": {
     "criteria": {
       "has_sand": "2022-07-18 21:09:28 +0900"
@@ -1867,6 +1930,12 @@
   "minecraft:recipes/redstone/tnt": {
     "criteria": {
       "has_gunpowder": "2022-07-18 22:12:35 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone": {
+    "criteria": {
+      "has_sandstone": "2022-08-06 20:22:22 +0900"
     },
     "done": true
   },
@@ -2080,6 +2149,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/item_frame": {
+    "criteria": {
+      "has_leather": "2022-08-06 19:51:12 +0900"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/lime_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2022-07-18 20:43:59 +0900"
@@ -2245,6 +2320,12 @@
   "minecraft:recipes/decorations/blue_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2022-07-18 20:43:59 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/sandstone_wall_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2022-08-06 20:22:22 +0900"
     },
     "done": true
   },
@@ -2434,6 +2515,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/conduit": {
+    "criteria": {
+      "has_nautilus_core": "2022-08-06 20:46:35 +0900"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/granite_slab_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2022-07-17 22:21:20 +0900"
@@ -2482,6 +2569,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2022-08-06 20:22:22 +0900"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/oak_pressure_plate": {
     "criteria": {
       "has_planks": "2022-07-17 22:22:38 +0900"
@@ -2509,6 +2602,12 @@
   "minecraft:recipes/building_blocks/polished_deepslate_stairs": {
     "criteria": {
       "has_polished_deepslate": "2022-08-04 23:13:50 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone": {
+    "criteria": {
+      "has_sandstone": "2022-08-06 20:22:22 +0900"
     },
     "done": true
   },
@@ -2542,6 +2641,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/sandstone_slab_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2022-08-06 20:22:22 +0900"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/spruce_chest_boat": {
     "criteria": {
       "has_boat": "2022-07-26 21:27:29 +0900"
@@ -2557,6 +2662,12 @@
   "minecraft:recipes/building_blocks/jungle_slab": {
     "criteria": {
       "has_planks": "2022-07-17 22:16:43 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_chestplate": {
+    "criteria": {
+      "has_leather": "2022-08-06 19:51:12 +0900"
     },
     "done": true
   },

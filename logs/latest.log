@@ -1,68 +1,43 @@
-[17:02:28] [ServerMain/INFO]: Building unoptimized datafixer
-[17:02:29] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[17:02:30] [ServerMain/INFO]: Loaded 7 recipes
-[17:02:32] [Server thread/INFO]: Starting minecraft server version 1.19
-[17:02:32] [Server thread/INFO]: Loading properties
-[17:02:32] [Server thread/INFO]: This server is running Paper version git-Paper-61 (MC: 1.19) (Implementing API version 1.19-R0.1-SNAPSHOT) (Git: cd215af)
-[17:02:32] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[17:02:32] [Server thread/INFO]: Using 4 threads for Netty based IO
-[17:02:32] [Server thread/INFO]: Default game type: SURVIVAL
-[17:02:32] [Server thread/INFO]: Generating keypair
-[17:02:32] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:02:32] [Server thread/INFO]: Using default channel type
-[17:02:32] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
-[17:02:32] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[17:02:33] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[17:02:33] [Server thread/INFO]: Preparing level "world"
-[17:02:33] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[17:02:33] [Server thread/INFO]: Time elapsed: 171 ms
-[17:02:33] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[17:02:33] [Server thread/INFO]: Time elapsed: 50 ms
-[17:02:33] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[17:02:34] [Server thread/INFO]: Time elapsed: 145 ms
-[17:02:34] [Server thread/INFO]: Running delayed init tasks
-[17:02:34] [Server thread/INFO]: Done (1.853s)! For help, type "help"
-[17:02:34] [Server thread/INFO]: Timings Reset
-[17:02:43] [User Authenticator #1/INFO]: UUID of player JJoRong2 is 95e54ec4-dac7-45c3-b75c-626a8bb2ea9d
-[17:02:43] [Server thread/INFO]: JJoRong2 joined the game
-[17:02:43] [Server thread/INFO]: JJoRong2[/14.138.35.52:8885] logged in with entity id 546 at ([world]53.11408137032919, 64.0, -112.68448019402004)
-[19:18:20] [Server thread/INFO]: JJoRong2 issued server command: /give JJoRong2 minecraft:bamboo 30
-[19:18:20] [Server thread/INFO]: [JJoRong2: Gave 30 [Bamboo] to JJoRong2]
-[19:20:02] [Server thread/INFO]: JJoRong2 issued server command: /gamerule randomTickSpeed 500
-[19:20:02] [Server thread/INFO]: [JJoRong2: Gamerule randomTickSpeed is now set to: 500]
-[19:20:09] [Server thread/INFO]: JJoRong2 issued server command: /gamerule randomTickSpeed 3
-[19:20:09] [Server thread/INFO]: [JJoRong2: Gamerule randomTickSpeed is now set to: 3]
-[19:24:38] [Server thread/INFO]: JJoRong2 issued server command: /give JJoRong2 minecraft:bamboo 30
-[19:24:38] [Server thread/INFO]: [JJoRong2: Gave 30 [Bamboo] to JJoRong2]
-[19:25:12] [Server thread/WARN]: JJoRong2 moved wrongly!
-[19:49:56] [Server thread/INFO]: JJoRong2 issued server command: /gamerule randomTickSpeed 20
-[19:49:56] [Server thread/INFO]: [JJoRong2: Gamerule randomTickSpeed is now set to: 20]
-[19:50:03] [Server thread/INFO]: JJoRong2 issued server command: /gamerule randomTickSpeed 50
-[19:50:03] [Server thread/INFO]: [JJoRong2: Gamerule randomTickSpeed is now set to: 50]
-[19:50:31] [Server thread/INFO]: JJoRong2 issued server command: /gamerule randomTickSpeed 3
-[19:50:31] [Server thread/INFO]: [JJoRong2: Gamerule randomTickSpeed is now set to: 3]
-[19:50:33] [Server thread/INFO]: JJoRong2 issued server command: /gamerule randomTickSpeed
-[20:14:47] [Server thread/WARN]: JJoRong2 moved wrongly!
-[20:25:34] [Server thread/INFO]: JJoRong2 issued server command: /gamerule randomTickSpeed 50
-[20:25:34] [Server thread/INFO]: [JJoRong2: Gamerule randomTickSpeed is now set to: 50]
-[20:25:59] [Server thread/INFO]: JJoRong2 issued server command: /gamerule randomTickSpeed 500
-[20:25:59] [Server thread/INFO]: [JJoRong2: Gamerule randomTickSpeed is now set to: 500]
-[20:26:12] [Server thread/INFO]: JJoRong2 issued server command: /gamerule randomTickSpeed
-[20:26:17] [Server thread/INFO]: JJoRong2 issued server command: /gamerule randomTickSpeed
-[20:26:21] [Server thread/INFO]: JJoRong2 issued server command: /gamerule randomTickSpeed 10
-[20:26:21] [Server thread/INFO]: [JJoRong2: Gamerule randomTickSpeed is now set to: 10]
-[20:35:52] [Server thread/INFO]: JJoRong2 lost connection: Disconnected
-[20:35:52] [Server thread/INFO]: JJoRong2 left the game
-[20:35:57] [Server thread/INFO]: Stopping server
-[20:35:57] [Server thread/INFO]: Saving players
-[20:35:57] [Server thread/INFO]: Saving worlds
-[20:35:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[20:35:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[20:35:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[20:35:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[20:35:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:35:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20:35:59] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[20:35:59] [Server thread/INFO]: Flushing Chunk IO
-[20:35:59] [Server thread/INFO]: Closing Thread Pool
-[20:35:59] [Server thread/INFO]: Closing Server
+[19:32:30] [ServerMain/INFO]: Building unoptimized datafixer
+[19:32:31] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19:32:33] [ServerMain/INFO]: Loaded 7 recipes
+[19:32:34] [Server thread/INFO]: Starting minecraft server version 1.19
+[19:32:34] [Server thread/INFO]: Loading properties
+[19:32:34] [Server thread/INFO]: This server is running Paper version git-Paper-61 (MC: 1.19) (Implementing API version 1.19-R0.1-SNAPSHOT) (Git: cd215af)
+[19:32:34] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:32:34] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:32:35] [Server thread/INFO]: Default game type: SURVIVAL
+[19:32:35] [Server thread/INFO]: Generating keypair
+[19:32:35] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:32:35] [Server thread/INFO]: Using default channel type
+[19:32:35] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
+[19:32:35] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[19:32:35] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:32:35] [Server thread/INFO]: Preparing level "world"
+[19:32:36] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:32:36] [Server thread/INFO]: Time elapsed: 153 ms
+[19:32:36] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[19:32:36] [Server thread/INFO]: Time elapsed: 50 ms
+[19:32:36] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[19:32:36] [Server thread/INFO]: Time elapsed: 45 ms
+[19:32:36] [Server thread/INFO]: Running delayed init tasks
+[19:32:36] [Server thread/INFO]: Done (1.665s)! For help, type "help"
+[19:32:36] [Server thread/INFO]: Timings Reset
+[19:35:15] [User Authenticator #1/INFO]: UUID of player JJoRong2 is 95e54ec4-dac7-45c3-b75c-626a8bb2ea9d
+[19:35:16] [Server thread/INFO]: JJoRong2 joined the game
+[19:35:16] [Server thread/INFO]: JJoRong2[/14.138.35.52:1182] logged in with entity id 1494 at ([world]53.559046324000334, 68.0, -102.49537569240134)
+[21:04:57] [Server thread/INFO]: JJoRong2 lost connection: Disconnected
+[21:04:57] [Server thread/INFO]: JJoRong2 left the game
+[21:05:04] [Server thread/INFO]: Stopping server
+[21:05:04] [Server thread/INFO]: Saving players
+[21:05:04] [Server thread/INFO]: Saving worlds
+[21:05:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21:05:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[21:05:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[21:05:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:05:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:05:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:05:05] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21:05:06] [Server thread/INFO]: Flushing Chunk IO
+[21:05:06] [Server thread/INFO]: Closing Thread Pool
+[21:05:06] [Server thread/INFO]: Closing Server
